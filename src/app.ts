@@ -311,7 +311,7 @@ Enter a search term and click "OK"
 
           // where all the magic happens
           // Loop over the world database, creating a teleporter for each entry.
-          let x = this.teleporterSpacing;
+          let x = this.teleporterSpacing * 2;
           for (const worldId of Object.keys(this.worldDatabase)) {
               const worldRecord = this.worldDatabase[worldId];
 
