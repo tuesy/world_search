@@ -273,7 +273,7 @@ Enter a search term and click "OK"
   }
 
   private resultMessageFor(query: string){
-    return `Search results for "${query}"`;
+    return `Search results for:\n\n"${query}"`;
   }
 
 	// search for worlds and spawn teleporters
