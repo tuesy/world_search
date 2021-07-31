@@ -95,8 +95,13 @@ export default class WorldSearch {
     const favoritesButton = MRE.Actor.CreateFromLibrary(this.context, {
       resourceId: 'artifact:1579238678213952234',
       actor: {
-        name: 'Help Button',
-        transform: { local: { position: { x: -0.35, y: BUTTON_HEIGHT, z: 0 } } },
+        name: 'Favorites Button',
+        transform: {
+          local: {
+            position: { x: -0.35, y: BUTTON_HEIGHT, z: 0 },
+            rotation: MRE.Quaternion.FromEulerAngles(0, MRE.DegreesToRadians * 90, 0)
+          }
+        },
         collider: { geometry: { shape: MRE.ColliderType.Box, size: { x: 0.5, y: 0.2, z: 0.01 } } }
       }
      });
