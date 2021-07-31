@@ -120,7 +120,12 @@ export default class WorldSearch {
       resourceId: 'artifact:1579238405710021245',
       actor: {
         name: 'Help Button',
-        transform: { local: { position: { x: 0.35, y: BUTTON_HEIGHT, z: 0 } } },
+        transform: {
+          local: {
+            position: { x: 0.35, y: BUTTON_HEIGHT, z: 0 },
+            rotation: MRE.Quaternion.FromEulerAngles(0, MRE.DegreesToRadians * 90, 0)
+          }
+        },
         collider: { geometry: { shape: MRE.ColliderType.Box, size: { x: 0.5, y: 0.2, z: 0.01 } } }
       }
      });
@@ -150,7 +155,12 @@ Click the heart button to see top world builders. Click the small heart button n
       resourceId: 'artifact:1579239194507608147',
       actor: {
         name: 'Search Button',
-        transform: { local: { position: { x: 0, y: BUTTON_HEIGHT, z: 0 } } },
+        transform: {
+          local: {
+            position: { x: 0, y: BUTTON_HEIGHT, z: 0 },
+            rotation: MRE.Quaternion.FromEulerAngles(0, MRE.DegreesToRadians * 90, 0)
+          }
+        },
         collider: { geometry: { shape: MRE.ColliderType.Box, size: { x: 0.5, y: 0.2, z: 0.01 } } }
       }
     });
