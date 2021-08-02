@@ -82,7 +82,7 @@ export default class WorldSearch {
       actor: {
         name: 'Info Text',
         transform: { local: { position: { x: 0, y: INFO_TEXT_HEIGHT, z: 0 } } },
-        collider: { geometry: { shape: MRE.ColliderType.Box, size: { x: 0.5, y: 0.2, z: 0.01 } } },
+        collider: { geometry: { shape: MRE.ColliderType.Box, size: { x: 0.5, y: 0.5, z: 0.5 } } },
         text: {
           contents: WELCOME_TEXT,
           height: 0.1,
@@ -102,7 +102,7 @@ export default class WorldSearch {
             rotation: MRE.Quaternion.FromEulerAngles(0, MRE.DegreesToRadians * 90, 0)
           }
         },
-        collider: { geometry: { shape: MRE.ColliderType.Box, size: { x: 0.5, y: 0.2, z: 0.01 } } }
+        collider: { geometry: { shape: MRE.ColliderType.Box, size: { x: 0.5, y: 0.5, z: 0.5 } } }
       }
      });
     favoritesButton.setBehavior(MRE.ButtonBehavior).onClick(user => {
@@ -126,7 +126,7 @@ export default class WorldSearch {
             rotation: MRE.Quaternion.FromEulerAngles(0, MRE.DegreesToRadians * 90, 0)
           }
         },
-        collider: { geometry: { shape: MRE.ColliderType.Box, size: { x: 0.5, y: 0.2, z: 0.01 } } }
+        collider: { geometry: { shape: MRE.ColliderType.Box, size: { x: 0.5, y: 0.5, z: 0.5 } } }
       }
      });
     helpButton.setBehavior(MRE.ButtonBehavior).onClick(user => {
@@ -161,7 +161,7 @@ Click the heart button to see top world builders. Click the small heart button n
             rotation: MRE.Quaternion.FromEulerAngles(0, MRE.DegreesToRadians * 90, 0)
           }
         },
-        collider: { geometry: { shape: MRE.ColliderType.Box, size: { x: 0.5, y: 0.2, z: 0.01 } } }
+        collider: { geometry: { shape: MRE.ColliderType.Box, size: { x: 0.5, y: 0.5, z: 0.5 } } }
       }
     });
     hashtagButton.setBehavior(MRE.ButtonBehavior).onClick(user => {
@@ -243,7 +243,7 @@ Enter a search term and click "OK"
         resourceId: 'artifact:1579238678213952234', // heart
         actor: {
           transform: { local: { position: { x: x, y: y, z: 0 }, scale: {x: 0.5, y: 0.5 , z: 0.5 } } },
-          collider: { geometry: { shape: MRE.ColliderType.Box, size: { x: 0.5, y: 0.2, z: 0.01 } } },
+          collider: { geometry: { shape: MRE.ColliderType.Box, size: { x: 0.5, y: 0.5, z: 0.5 } } },
           parentId: this.worldBuildersList.id
         }
       });
@@ -255,7 +255,7 @@ Enter a search term and click "OK"
       MRE.Actor.Create(this.context, {
         actor: {
           transform: { local: { position: { x: x + 0.1, y: y, z: 0 } } },
-          collider: { geometry: { shape: MRE.ColliderType.Box, size: { x: 0.5, y: 0.2, z: 0.01 } } },
+          collider: { geometry: { shape: MRE.ColliderType.Box, size: { x: 0.5, y: 0.5, z: 0.5 } } },
           text: {
             contents: display_name,
             height: 0.1,
@@ -378,7 +378,7 @@ Enter a search term and click "OK"
 		          rotation.z * MRE.DegreesToRadians)
 					}
 				},
-				collider: { geometry: { shape: MRE.ColliderType.Box, size: { x: 0.5, y: 0.2, z: 0.01 } } },
+				collider: { geometry: { shape: MRE.ColliderType.Box, size: { x: 0.5, y: 0.5, z: 0.5 } } },
 				text: {
 					contents: "More Info",
 					height: this.moreInfoHeight,
