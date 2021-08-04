@@ -98,8 +98,7 @@ export default class WorldSearch {
         name: 'Favorites Button',
         transform: {
           local: {
-            position: { x: -0.35, y: BUTTON_HEIGHT, z: 0 },
-            rotation: MRE.Quaternion.FromEulerAngles(0, MRE.DegreesToRadians * 90, 0)
+            position: { x: -0.35, y: BUTTON_HEIGHT, z: 0 }
           }
         },
         collider: { geometry: { shape: MRE.ColliderType.Box, size: { x: 0.5, y: 0.5, z: 0.5 } } }
@@ -122,8 +121,7 @@ export default class WorldSearch {
         name: 'Help Button',
         transform: {
           local: {
-            position: { x: 0.35, y: BUTTON_HEIGHT, z: 0 },
-            rotation: MRE.Quaternion.FromEulerAngles(0, MRE.DegreesToRadians * 90, 0)
+            position: { x: 0.35, y: BUTTON_HEIGHT, z: 0 }
           }
         },
         collider: { geometry: { shape: MRE.ColliderType.Box, size: { x: 0.5, y: 0.5, z: 0.5 } } }
@@ -157,8 +155,7 @@ Click the heart button to see top world builders. Click the small heart button n
         name: 'Search Button',
         transform: {
           local: {
-            position: { x: 0, y: BUTTON_HEIGHT, z: 0 },
-            rotation: MRE.Quaternion.FromEulerAngles(0, MRE.DegreesToRadians * 90, 0)
+            position: { x: 0, y: BUTTON_HEIGHT, z: 0 }
           }
         },
         collider: { geometry: { shape: MRE.ColliderType.Box, size: { x: 0.5, y: 0.5, z: 0.5 } } }
