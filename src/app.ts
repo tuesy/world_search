@@ -199,33 +199,33 @@ Enter a search term and click "OK"
 
     // create favorites board
     // => created from the buttom up
-    // UPDATED: 2021-06-02
+    // UPDATED: 2021-08-05
     let worldBuilders: string[][] = [
       ["Daisy Shaw", "BestBearEver"],
-      ["Darren", "VRDarrenG"],
-      ["Matty Boy", "MattyBoy"],
+      ["SHUSHU", "HOLODRAMA"],
       ["tajasuka", "tajasuka"],
+      ["Greg", "GregEBigsky"],
+      ["Darren", "VRDarrenG"],
+      ["ErikaTheBroadwayGirl", "Erallie"],
+      ["Artsy (MC)", "artsy"],
+      ["@SASHAONVR", "airforcevet"],
+      ["Matty Boy", "MattyBoy"],
+      ["Andy", "djvivid"],
+      ["John", "Space_Cadet"],
+      ["Nera", "whimwhams"],
+      ["{Captain Jack Sparrow}", "TheVoiceGuy1"],
+      ["Cha-Boogie (HarlemWorld / MC)", "ChaBoogie2407"],
+      ["Niko", "nikolang88"],
+      ["OptiC", "OptiC_AltspaceVR"],
+      ["David_VR", "David_VR"],
+      ["Mr. Prime", "OctopusPrime"],
+      ["Luis Neo Buda", "LuisNeoBuda"],
+      ["Poellnitz123 (Poe)", "poellnitz123"],
       ["Karnivore", "markgill47"],
       ["Kbot", "kvanalstine"],
-      ["{Mr. Disney}", "TheVoiceGuy1"],
-      ["Artsy (MC)", "artsy"],
-      ["SHUSHU", "HOLODRAMA"],
-      ["Andy", "djvivid"],
-      ["VRMax Technologies Solutions", "VRMaxTech"],
-      ["Mr. Prime", "OctopusPrime"],
-      ["Lightyear (Scott) World Builder/Musician", "scottfin767"],
-      ["MOLLY (Queen of Hearts)", "GypsySoul"],
-      ["James", "Velox"],
-      ["Nera", "whimwhams"],
-      ["Hazel", "DuncanEyes"],
-      ["Luis Neo Buda", "LuisNeoBuda"],
-      ["Terry", "TerryVallery"],
-      ["Doug - BRCvr )*(", "Dougj11"],
-      ["HartmanVR", "Hartman747"],
-      ["OptiC", "OptiC_AltspaceVR"],
-      ["Evgeniya", "Evinewyork"],
-      ["Olly", "Olly"],
-      ["WALLY", "WALLY1987"],
+      ["ZmanCometh", "zmancometh"],
+      ["Jimmy", "jimmy"],
+      ["Lightyear (Scott)", "scottfin767"]
     ].reverse();
     let button = null;
     for(var user of worldBuilders){
@@ -274,7 +274,7 @@ Enter a search term and click "OK"
         transform: { local: { position: { x: x, y: y, z: 0 } } },
         collider: { geometry: { shape: MRE.ColliderType.Box, size: { x: 0.5, y: 0.2, z: 0.01 } } },
         text: {
-          contents: 'Top World Builders',
+          contents: 'Top World Builders (July 2021)',
           height: 0.15,
           anchor: MRE.TextAnchorLocation.MiddleLeft,
           justify: MRE.TextJustify.Left
