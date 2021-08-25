@@ -31,6 +31,7 @@ type WorldDescriptor = {
     userUsername: string;
     visited: number;
     worldId: string;
+    code: string;
 };
 
 /**
@@ -317,7 +318,8 @@ Enter a search term and click "OK"
                   'userDisplayName': String(world.first_name),
                   'userUsername': String(world.username),
                   'visited': Number(world.visited),
-                  'worldId': String(world.space_id)
+                  'worldId': String(world.space_id),
+                  'code': String(world.code)
               }
           }
 
@@ -391,7 +393,12 @@ Enter a search term and click "OK"
    			info += `\n\n${world.description}`;
 			}
 
-			info += `\n\nFavorited ${world.favorited} | Visited ${world.visited}`;
+      info += `\n\nFavorited ${world.favorited} | Visited ${world.visited}`;
+
+      // useful for spawning Portals
+      if(world.code && world.code != 'undefined'){
+        info += `\nCode ${world.code}`;
+      }
 
 			user.prompt(info)
 			.then(res => {
