@@ -200,33 +200,33 @@ Enter a search term and click "OK"
 
     // create favorites board
     // => created from the buttom up
-    // UPDATED: 2021-08-05
+    // UPDATED: 2021-09-02
     let worldBuilders: string[][] = [
       ["Daisy Shaw", "BestBearEver"],
-      ["SHUSHU", "HOLODRAMA"],
-      ["tajasuka", "tajasuka"],
-      ["Greg", "GregEBigsky"],
-      ["Darren", "VRDarrenG"],
-      ["ErikaTheBroadwayGirl", "Erallie"],
-      ["Artsy (MC)", "artsy"],
-      ["@SASHAONVR", "airforcevet"],
-      ["Matty Boy", "MattyBoy"],
-      ["Andy", "djvivid"],
-      ["John", "Space_Cadet"],
-      ["Nera", "whimwhams"],
-      ["{Captain Jack Sparrow}", "TheVoiceGuy1"],
-      ["Cha-Boogie (HarlemWorld / MC)", "ChaBoogie2407"],
-      ["Niko", "nikolang88"],
-      ["OptiC", "OptiC_AltspaceVR"],
-      ["David_VR", "David_VR"],
-      ["Mr. Prime", "OctopusPrime"],
-      ["Luis Neo Buda", "LuisNeoBuda"],
-      ["Poellnitz123 (Poe)", "poellnitz123"],
-      ["Karnivore", "markgill47"],
+      ["TORCHEBUGNE FR", "TORCHEBUGNE"],
+      ["aRkker", "aRkker"],
       ["Kbot", "kvanalstine"],
-      ["ZmanCometh", "zmancometh"],
+      ["BRCvr", "brcvr"],
+      ["Darren", "VRDarrenG"],
+      ["Greg", "GregEBigsky"],
+      ["Matty Boy", "MattyBoy"],
+      ["Artsy!", "artsy"],
+      ["(MsPeeps) I don't like drama and people who play both sides", "proudlove44"],
+      ["Lightyear (Scott)", "scottfin767"],
+      ["Niko", "nikolang88"],
+      ["tajasuka", "tajasuka"],
+      ["Luis Neo Buda", "LuisNeoBuda"],
+      ["Elsker", "Aguy_Lob"],
+      ["JahKujo", "MelodicAlligator"],
+      ["Mr. Prime", "OctopusPrime"],
+      ["{Beetlejuice}", "TheVoiceGuy1"],
+      ["SHUSHU", "HOLODRAMA"],
+      ["John", "Space_Cadet"],
+      ["VRMax Technologies Solutions", "VRMaxTech"],
+      ["Breakthrough", "Ibrod1180"],
+      ["Karnivore", "markgill47"],
       ["Jimmy", "jimmy"],
-      ["Lightyear (Scott)", "scottfin767"]
+      ["Storm", "MoreMocha"],
     ].reverse();
     let button = null;
     for(var user of worldBuilders){
@@ -275,7 +275,7 @@ Enter a search term and click "OK"
         transform: { local: { position: { x: x, y: y, z: 0 } } },
         collider: { geometry: { shape: MRE.ColliderType.Box, size: { x: 0.5, y: 0.2, z: 0.01 } } },
         text: {
-          contents: 'Top World Builders (July 2021)',
+          contents: 'Top World Builders (September 2021)', // now is the update time for previous month
           height: 0.15,
           anchor: MRE.TextAnchorLocation.MiddleLeft,
           justify: MRE.TextJustify.Left
