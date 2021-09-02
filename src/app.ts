@@ -225,7 +225,6 @@ Enter a search term and click "OK"
       ["VRMax Technologies Solutions", "VRMaxTech"],
       ["Breakthrough", "Ibrod1180"],
       ["Karnivore", "markgill47"],
-      ["Jimmy", "jimmy"],
       ["Storm", "MoreMocha"],
     ].reverse();
     let button = null;
