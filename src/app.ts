@@ -275,7 +275,7 @@ Enter a search term and click "OK"
         transform: { local: { position: { x: x, y: y, z: 0 } } },
         collider: { geometry: { shape: MRE.ColliderType.Box, size: { x: 0.5, y: 0.2, z: 0.01 } } },
         text: {
-          contents: 'Top World Builders (September 2021)', // now is the update time for previous month
+          contents: 'Top World Builders (October 2021)', // now is the update time for previous month
           height: 0.15,
           anchor: MRE.TextAnchorLocation.MiddleLeft,
           justify: MRE.TextJustify.Left
