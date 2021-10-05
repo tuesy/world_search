@@ -200,32 +200,33 @@ Enter a search term and click "OK"
 
     // create favorites board
     // => created from the buttom up
-    // UPDATED: 2021-09-02
+    // UPDATED: 2021-10-05
     let worldBuilders: string[][] = [
       ["Daisy Shaw", "BestBearEver"],
-      ["TORCHEBUGNE FR", "TORCHEBUGNE"],
-      ["aRkker", "aRkker"],
-      ["Kbot", "kvanalstine"],
-      ["BRCvr", "brcvr"],
       ["Darren", "VRDarrenG"],
-      ["Greg", "GregEBigsky"],
-      ["Matty Boy", "MattyBoy"],
-      ["Artsy!", "artsy"],
-      ["(MsPeeps) I don't like drama and people who play both sides", "proudlove44"],
-      ["Lightyear (Scott)", "scottfin767"],
-      ["Niko", "nikolang88"],
       ["tajasuka", "tajasuka"],
-      ["Luis Neo Buda", "LuisNeoBuda"],
-      ["Elsker", "Aguy_Lob"],
-      ["JahKujo", "MelodicAlligator"],
-      ["Mr. Prime", "OctopusPrime"],
-      ["{Beetlejuice}", "TheVoiceGuy1"],
+      ["TORCHEBUGNE FR", "TORCHEBUGNE"],
       ["SHUSHU", "HOLODRAMA"],
-      ["John", "Space_Cadet"],
+      ["Artsy!", "artsy"],
+      ["Mr. Prime", "OctopusPrime"],
+      ["~:) Elsker (:~", "Aguy_Lob"],
+      ["(MsPeeps)  The Truth Speaker", "proudlove44"],
+      ["Greg", "GregEBigsky"],
+      ["Luis Neo Buda", "LuisNeoBuda"],
+      ["Ryuuzaki", "RyuuzakiJulio"],
+      ["Captain Jack Sparrow", "TheVoiceGuy1"],
+      ["VenusSX", "VenusSXCoach"],
       ["VRMax Technologies Solutions", "VRMaxTech"],
-      ["Breakthrough", "Ibrod1180"],
+      ["BRCvr", "brcvr"],
+      ["aRkker", "aRkker"],
+      ["Niko", "nikolang88"],
+      ["Moody", "Rlymoody"],
+      ["Kbot", "kvanalstine"],
       ["Karnivore", "markgill47"],
-      ["Storm", "MoreMocha"],
+      ["Andy", "djvivid"],
+      ["Lightyear (Scott)", "scottfin767"],
+      ["MortalVR", "MortalVR"],
+      ["HartmanVR", "Hartman747"],
     ].reverse();
     let button = null;
     for(var user of worldBuilders){
