@@ -200,33 +200,33 @@ Enter a search term and click "OK"
 
     // create favorites board
     // => created from the buttom up
-    // UPDATED: 2021-10-05
+    // UPDATED: 2021-11-02
     let worldBuilders: string[][] = [
-      ["Daisy Shaw", "BestBearEver"],
+      ["~Daisy Shaw~", "BestBearEver"],
       ["Darren", "VRDarrenG"],
-      ["tajasuka", "tajasuka"],
-      ["TORCHEBUGNE FR", "TORCHEBUGNE"],
-      ["SHUSHU", "HOLODRAMA"],
-      ["Artsy!", "artsy"],
       ["Mr. Prime", "OctopusPrime"],
-      ["~:) Elsker (:~", "Aguy_Lob"],
-      ["(MsPeeps)  The Truth Speaker", "proudlove44"],
-      ["Greg", "GregEBigsky"],
-      ["Luis Neo Buda", "LuisNeoBuda"],
+      ["TORCHEBUGNE FR", "TORCHEBUGNE"],
+      ["Artsy!", "artsy"],
       ["Ryuuzaki", "RyuuzakiJulio"],
-      ["Captain Jack Sparrow", "TheVoiceGuy1"],
-      ["VenusSX", "VenusSXCoach"],
-      ["VRMax Technologies Solutions", "VRMaxTech"],
-      ["BRCvr", "brcvr"],
-      ["aRkker", "aRkker"],
-      ["Niko", "nikolang88"],
-      ["Moody", "Rlymoody"],
-      ["Kbot", "kvanalstine"],
-      ["Karnivore", "markgill47"],
-      ["Andy", "djvivid"],
+      ["SHUSHU", "HOLODRAMA"],
       ["Lightyear (Scott)", "scottfin767"],
-      ["MortalVR", "MortalVR"],
+      ["Chefo", "soychefo"],
+      ["tajasuka", "tajasuka"],
+      ["Kbot", "kvanalstine"],
+      ["Blaze", "Ablazekiller101"],
+      ["Cha-Boogie", "ChaBoogie2407"],
+      ["Captain Jack Sparrow", "TheVoiceGuy1"],
+      ["~:) Elsker (:~", "Aguy_Lob"],
+      ["PepperPotts2020", "MissPepperP"],
+      ["King", "Milfking12"],
+      ["VRMax Technologies Solutions", "VRMaxTech"],
       ["HartmanVR", "Hartman747"],
+      ["Matty Boy", "MattyBoy"],
+      ["Charles Ace", "CharlesAce30"],
+      ["Niko", "nikolang88"],
+      [")'( Icewiz", "Jim_Ottens"],
+      ["deb", "connectde"],
+      ["Jukka Seppanen - POKE", "kijaidesign"],
     ].reverse();
     let button = null;
     for(var user of worldBuilders){
@@ -275,7 +275,7 @@ Enter a search term and click "OK"
         transform: { local: { position: { x: x, y: y, z: 0 } } },
         collider: { geometry: { shape: MRE.ColliderType.Box, size: { x: 0.5, y: 0.2, z: 0.01 } } },
         text: {
-          contents: 'Top World Builders (October 2021)', // now is the update time for previous month
+          contents: 'Top World Builders (November 2021)', // now is the update time for previous month
           height: 0.15,
           anchor: MRE.TextAnchorLocation.MiddleLeft,
           justify: MRE.TextJustify.Left
